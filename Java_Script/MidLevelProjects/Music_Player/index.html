@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6507eb9fbf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="container">
+        <div class="nav-bar">
+            <i class="fa-solid fa-chevron-left"></i>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <img src="ed.jpeg" >
+        <h2>Shape Of You</h2>
+        <p>ft. Ed Sheeran</p>
+        <audio  id="song"> <source src="Shape-Of-You.mp3"> </audio>
+        <input type="range" value="0" id="progress">
+        <div class="controls">
+            <i class="fa-solid fa-backward"></i>
+            <i class="fa-solid fa-play" id="play-btn"></i>
+            <i class="fa-solid fa-forward " ></i>
+        </div>
+    </div>
+    <script src="logic.js"></script>
+</body>
+</html>

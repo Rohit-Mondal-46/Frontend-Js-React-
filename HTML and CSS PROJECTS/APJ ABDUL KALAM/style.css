@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #E5E5FD;
+    box-sizing: border-box;
+}
+
+.container{
+    border:7px solid black;
+    margin: 10% 15%;  
+    height: 900px;
+    width: 800px;
+}
+.content{
+    max-width: 900px;
+    height: auto;
+    margin: 0 auto;
+    padding: 30px;
+}
+#profile_pic{
+    display: block;
+    float: left;
+    height: 200px;
+    width: 220px;
+    size: 300px;
+    margin-bottom: 30px;
+}
+.intro{
+    display: inline-block;
+}
+#name{
+    text-align: center;
+    size: 500px;
+    
+}
+#title{
+    clear: left;
+    
+}
+#dob{
+    text-align: start;
+}
+#footer{
+    
+}
+#container2{
+    /* margin-top: 90px; */
+}
+#container3{
+    margin-top: 50px;
+}
+.copy{
+    position: relative;
+    bottom: 0px;
+}
+.wiki{
+    position: relative;
+    right: 0px;
+}
+

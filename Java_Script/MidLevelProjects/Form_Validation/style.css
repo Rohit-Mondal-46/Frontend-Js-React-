@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(4, 29, 67);
+}
+
+.container{
+    height: 58%;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+.images{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images img{
+    margin-top: -40px;
+    height: 100%;
+    width: 15%;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+form{
+    height: 90%;
+    width: 100%;
+    padding: 2%;
+}
+form label{
+    width: 30%;
+    height: 3rem;
+    font-size: 1.4rem;
+}
+.name{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 500;
+    position: relative;
+}
+
+.name input{
+    width: 70%;
+    outline: none;
+    font-size: 1.2rem;
+    border: none;    
+    border-bottom: 1px solid black;
+    margin-left: 3rem;
+    font-weight: 100;
+}
+
+.phone{
+    position: relative;
+
+    height: 20%;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.phone input{
+    width: 70%;
+
+    outline: none;
+    font-size: 1.2rem;
+    border: none;    
+    border-bottom: 1px solid black;
+    margin-left: 3rem;
+    font-weight: 100;
+}
+.email{
+    position: relative;
+
+    height: 20%;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.email input{
+    width: 70%;
+
+    outline: none;
+    font-size: 1.2rem;
+    border: none;    
+    border-bottom: 1px solid black;
+    margin-left: 3rem;
+    font-weight: 100;
+    background-color: white;
+}
+.text{
+    position: relative;
+
+    font-size: 1.2rem;
+    font-weight: 500;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.text textarea{
+    width: 70%;
+    outline: none;
+    font-size: 1.2rem;
+    border: none;    
+    border-bottom: 1px solid black;
+    margin-left: 3rem;
+    font-weight: 100;
+}
+.submit{
+    height: 20%;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 500;
+    position: relative;
+
+}
+
+#submit-btn{
+    height: 2.5rem;
+    width: 5rem;
+    background-color: rgb(17, 45, 97);
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    top: 29%;
+    left: 40%;
+}
+
+form span{
+    font-size: .9rem;
+    color: red;
+    position: absolute;
+    right: .1rem;
+}

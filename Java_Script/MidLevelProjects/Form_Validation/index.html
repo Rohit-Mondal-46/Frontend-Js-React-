@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6507eb9fbf.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="images">
+            <img src="images (1).png" alt="">
+        </div>
+        <form action="">
+
+            <div class="name">
+                <label for="">Full Name</label>
+                <input type="text" name="name" id="name-field" onkeyup="validateName()">
+                <span id="name-error"></span>
+            </div>
+            <div class="phone">
+                <label for="">Phone</label>
+                <input type="tel" name="phone" id="phone-field" onkeyup="validatePhone()">
+                <span id="phone-error"></span>
+            </div>
+            <div class="email">
+                <label for="">Email</label>
+                <input type="email" name="email" id="email-field" onkeyup="validateEmail()">
+                <span id="email-error"></span>
+            </div>
+            <div class="text">
+                <label for="">About yourself</label>
+                <textarea name="" id="text-field" cols="22" onkeyup="validateText()"></textarea>
+                <span id="text-error"></span>
+            </div>
+            <div class="submit">
+                <span id="submit-error"></span>
+                <button type="submit" value="Submit" id="submit-btn" onclick="return validateForm()"> Submit </button>
+            </div>
+            
+        </form>
+    </div>
+    <script src="logic.js"></script>
+</body>
+</html>
+

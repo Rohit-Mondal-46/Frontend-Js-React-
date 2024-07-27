@@ -1,0 +1,26 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#nav {
+  height: 30px;
+  width: 100%;
+  border-bottom: 2px solid black;
+  background-color: beige;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.ele {
+  height: 100%;
+  width: 50px;
+  border: 2px solid black;
+  background-color: cornflowerblue;
+}
+.child {
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  margin: 3px;
+}

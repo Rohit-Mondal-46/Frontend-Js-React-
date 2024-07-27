@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.button{
+    height: 100px;
+    width: 100px;
+}
+#grey{
+    background-color: grey;
+}
+#black{
+    background-color: black;
+}
+#green{
+    background-color: green;
+}
+#red{
+    background-color: red;
+}

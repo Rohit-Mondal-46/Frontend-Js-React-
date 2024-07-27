@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="calculator" id="cal">
+            <div id="inp-display">
+                <input type="text" id="fld1">
+            </div>
+            <div id="ans-display">
+                <input type="text" id="fld2">
+            </div>
+            <div class="inp-field">
+                <div class="btn">
+                    <input type="button" value="AC" onclick="fld1.value = ``;fld2.value=``">
+                    <input type="button" value="DE" onclick="fld1.value = fld1.value.toString().slice(0,-1)">
+                    <input type="button" value="%" onclick="fld1.value += `%`">
+                    <input type="button" value="+" onclick="fld1.value += `+`">
+                </div>
+                <div class="btn">
+                    <input type="button" value="1" onclick="fld1.value += `1`">
+                    <input type="button" value="2" onclick="fld1.value += `2`">
+                    <input type="button" value="3" onclick="fld1.value += `3`">
+                    <input type="button" value="-" onclick="fld1.value += `-`">
+                </div>
+                <div class="btn">
+                    <input type="button" value="4" onclick="fld1.value += `4`">
+                    <input type="button" value="5" onclick="fld1.value += `5`">
+                    <input type="button" value="6" onclick="fld1.value += `6`">
+                    <input type="button" value="x" onclick="fld1.value += `*`">
+                </div>
+                <div class="btn">
+                    <input type="button" value="7" onclick="fld1.value += `7`">
+                    <input type="button" value="8" onclick="fld1.value += `8`">
+                    <input type="button" value="9" onclick="fld1.value += `9`">
+                    <input type="button" value="/" onclick="fld1.value += `/`">
+                </div>
+                <div class="btn">
+                    <input type="button" value="0" onclick="fld1.value += `0`">
+                    <input type="button" value="." onclick="fld1.value += `.`">
+                    <input type="button" value="=" onclick="fld2.value = eval(fld1.value)">
+                    <input type="button" value=" " class="light" id="icon"  onclick="changeBg()" >
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="logic.js"></script>
+</body>
+</html>

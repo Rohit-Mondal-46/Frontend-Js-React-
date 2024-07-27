@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+
+            transition-property: all;
+            transition-duration: 3s;
+            transition-delay: 0s;
+            transition-timing-function: ease-in;
+        }
+        .container:hover{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            height: 500px;
+            width: 500px;
+            border: 10px solid rgb(133, 111, 111);
+            background-color: green;
+            font-size: 80px;
+            /* Applying Transition */
+            transition-property: all;
+            transition-duration: 3s;
+            transition-delay: 0s;
+            transition-timing-function: ease-in;
+        }
+        .box:hover{
+            color: darkcyan;
+            height: 100px;
+            width: 100px;
+            border: 3px hidden grey;
+            background-color: red;
+            font-size: small;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <p>Hello jii this is Rohit Mondal!</p>
+        </div>
+    </div>
+    
+</body>
+</html>

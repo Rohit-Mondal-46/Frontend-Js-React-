@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="id1" style="background-color: azure;">NAME:</label>
+            <input type="text" name="fullname" id="id1">
+            
+            <label for="id2" style="background-color: azure;">EMAIL:</label>
+            <input type="email" name="email" id="id2">
+            
+            <label for="id3" style="background-color: azure;">PHONE:</label>
+            <input type="tel" name="phone" id="id3">
+    
+            <label for="id4">Date of Birth</label>
+            <input type="date" name="datepicker" id="1d4">
+    
+            <label for="id5">Gender</label>
+            <div style="display: inline;" id="id5">
+                <input type="radio" value="male" name="gender" id="m">
+                <label for="m">MALE</label>
+                
+                <input type="radio" value="female" name="gender" id="f">
+                <label for="f">FEMALE</label>
+                
+                <input type="radio" value="others" name="gender" id="o">
+                <label for="o">OTHERS</label>
+            </div>
+                
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Address</legend>
+    
+            <label for="id6">Street</label>
+            <input type="text" name="street" id="id6">
+    
+            <label for="id7">City</label>
+            <input type="text" name="city" id="id7">
+    
+            <label for="id8">State</label>
+            <input type="text" name="state" id="id8">
+    
+            <label for="id9">Zipcode</label>
+            <input type="text" name="zipcode" id="id9">
+    
+        </fieldset>
+    
+        <br>
+    
+        <fieldset>
+            <legend>Other Information</legend>
+    
+            <label for="id10">Comment:</label>
+            <br>
+            <textarea name="comment" id="id10" cols="20" rows="10"></textarea>
+            <label for="id11">I agree terms and services</label>
+            <input type="checkbox" id="id11" name="terms">
+        </fieldset>
+        <br>
+        <input type="submit" value="submit">
+    </form>
+    
+</body>
+</html>

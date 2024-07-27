@@ -1,0 +1,25 @@
+.navbar{
+    position: fixed;
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+    color: white;
+    z-index: 1;
+    top: 0px;
+}
+
+.scrl-cnt{
+    width: 100%;
+    height: 10px;
+    background-color: bisque;
+}
+
+.curr-scrl-pos{
+    width: 0%;
+    height: 10px;
+    background-color: red;
+}
+.datas{
+    height: 80vh;
+    margin-top: 60px;
+}

@@ -1,0 +1,16 @@
+.btns {
+  height: 40px;
+  width: 60px;
+  margin: 5px;
+  background-color: aquamarine;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#bulb {
+  height: 200px;
+  width: 200px;
+}
+.on {
+  background-color: yellow;
+}

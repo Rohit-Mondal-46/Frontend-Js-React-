@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    /* background-image: linear-gradient(45deg,navy,cornflowerblue); */
+    display: flex;
+    background-color: rgb(49, 81, 141);
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 70%;
+    width: 59%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+.container h2{
+    width: 90%;
+    font-size: 4.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: white;
+}
+.container h2 span{
+    color: #fe347e;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.container textarea{
+    width: 90%;
+    height: 70%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    resize: none;
+    padding: 10px;
+    font-size: 1.5rem;
+    background-color: rgb(88, 113, 159);
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#btm{
+    width: 90%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#drop-down{
+    height: 80%;
+    width: 70%;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    background-color: rgb(88, 113, 159);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#submit-btn{
+    height: 80%;
+    width: 15%;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: #fe347e;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+#submit-btn i{
+    margin-right: 6px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    <script>
+        let start = document.getElementById("start")
+        let end = document.getElementById("stop")
+        let a1
+            start.addEventListener("click", function(){
+                a1 = setInterval(function () {
+                    console.log(Date.now())
+                }, 2000)
+            });
+            end.addEventListener("click", function () {
+                clearInterval(a1)
+            });
+    </script>
+</body>
+
+</html>

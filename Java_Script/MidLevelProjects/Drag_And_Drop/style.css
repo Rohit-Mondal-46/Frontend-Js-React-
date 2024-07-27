@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(244, 244, 198, 0.687);
+
+}
+
+#cont1,#cont2{
+    height: 50%;
+    width: 18%;
+    border: 2px solid black;
+    margin: 3%;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lists{
+    height: 23%;
+    width: 80%;
+    background-color: bisque;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: cadetblue;
+    cursor: pointer;
+}

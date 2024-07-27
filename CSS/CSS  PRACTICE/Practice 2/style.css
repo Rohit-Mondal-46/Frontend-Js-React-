@@ -1,0 +1,15 @@
+#outline{
+    outline-style:hidden;
+}
+a:link{
+    color: brown;
+}
+a:visited{
+    color: darkblue;
+}
+a:hover{
+    color: darkgreen;
+}
+a:active{
+    color: pink;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event form</title>
+</head>
+<body>
+    <h2>EVENT REGISTRATIN FORM:</h2>
+    <form >
+        <label for="id1" style="background-color: azure;">NAME:</label>
+        <br>
+        <input type="text" name="fullname" id="id1">
+        <br>
+        <br>
+        <label for="id2" style="background-color: azure;">EMAIL:</label>
+        <br>
+        <input type="email" name="email" id="id2">
+        <br>
+        <br>
+        <label for="id3" style="background-color: azure;">PHONE:</label>
+        <br>
+        <input type="tel" name="phone" id="id3">
+        <br>
+        <br>
+        <label for="id4" style="background-color: azure;">OCCUPATION:</label>
+        <br>
+        <select name="occupation" id="id4">
+            <option value="no data">--SELECT YOUR OCC.--</option>
+            <option value="student">STUDENT</option>
+            <option value="teacher">TEACHER</option>
+            <option value="freelancer">FREELANCER</option>
+        </select>
+        <br>
+        <br>
+        <label for="id5" style="background-color: azure;">TOPICS OF INTEREST:</label>
+        <div id="id5">
+        <input type="checkbox" name="subject" id="id5_1" value="HTML">
+        <label for="id5_1">HTML</label>
+        <br>
+        <input type="checkbox" name="subject" id="id5_2" value="CSS">
+        <label for="id5_2">CSS</label>
+        <br>
+        <input type="checkbox" name="subject" id="id5_3" value="JS">
+        <label for="id5_3">JAVA SCRIPT</label>
+        <br>
+        </div>
+        <br>
+        <br>
+        <label for="id6" style="background-color: azure;">COMMENT:</label>
+        <br>
+        <textarea name="comment" id="id6" cols="30" rows="3" placeholder="your comments..."></textarea>
+        <input type="submit" value="Register">
+        
+    </form>
+</body>
+</html>

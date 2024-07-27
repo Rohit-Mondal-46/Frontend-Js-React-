@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    position: relative;
+}
+
+#submit-btn{
+    height: 8%;
+    width: 8%;
+    background-color: white;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#submit-btn:hover{
+    background-color: lightgreen;
+}
+
+.pop-up{
+    height: 50%;
+    width: 25%;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 2rem 0px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    visibility: hidden;
+    transition: all 0.4s ease-in-out 0s;
+}
+.submitted{
+    position: absolute;
+    top: 25%;
+    left: 37%;
+    transform: translate(-50%,-50%);
+    transform:  scale(1);
+    visibility: visible;
+}
+.pop-up img{
+    height: 10rem;
+    width: 10rem;
+}
+.pop-up h2{
+    font-size: 1.8rem;
+}
+.pop-up p{
+    font-size: 1.3rem;
+    color: rgb(47, 133, 47);
+}
+.pop-up button{
+    height: 2rem;
+    width: 5rem;
+    margin-top: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.pop-up button:hover{
+    background-color: rgb(130, 170, 245);
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <button type="submit" id="submit-btn" onclick="displayPopUp()">Submit</button>
+        <div class="pop-up" id="pop">
+            <img src="tick.png">
+            <h2>Your Response has been successfully submitted</h2>
+            <p>Thank You</p>
+            <button type="submit" id="ok-btn" onclick="hidePopUp()">Ok</button>
+        </div>
+    </div>
+    <script>
+        let card = document.getElementById("pop");
+        function displayPopUp(){
+            card.classList.add("submitted");
+        }
+        function hidePopUp(){
+            card.classList.remove("submitted");
+        }
+    </script>
+</body>
+</html>
